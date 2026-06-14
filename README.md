@@ -2,49 +2,105 @@
 
 ## Overview
 
-Freelance Services Marketplace is a web application that connects freelancers with clients through a centralized platform. Users can browse services, manage accounts, and interact through a database-driven system.
+Freelance Services Marketplace is a full-stack web application that connects clients with freelancers in a secure and organized environment. The platform allows freelancers to showcase services while enabling clients to browse offerings, place orders, and manage project requirements.
+
+The project was developed as an individual project using PHP and MySQL with a database-driven architecture.
+
+---
 
 ## Features
 
-* User registration and authentication
-* Freelancer profile management
-* Service browsing and searching
-* Database integration
-* Responsive web interface
+### User Management
+
+* User authentication and session management
+* Client and freelancer accounts
+* Profile management
+
+### Service Marketplace
+
+* Browse available services
+* Service categorization
+* Service search functionality
+* Featured services support
+
+### Order Management
+
+* Place service orders
+* Track order status
+* Manage project requirements
+* Communication between clients and freelancers
+
+### File Management
+
+* Upload requirement files
+* Upload deliverables
+* Revision file support
+* Attachment tracking
+
+### Database System
+
+* Relational MySQL database
+* Users management
+* Services management
+* Orders tracking
+* Categories and marketplace organization
+
+---
 
 ## Technologies Used
 
+### Backend
+
 * PHP
-* JavaScript
+
+### Frontend
+
 * HTML5
 * CSS3
+* JavaScript
+
+### Database
+
 * MySQL
+
+### Development Environment
+
+* XAMPP
+
+---
 
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/bailasan-qadan/Freelance-Services-Marketplace.git
 
-2. Install and start XAMPP or WAMP.
+```bash
+git clone https://github.com/bailasan-qadan/Freelance-Services-Marketplace.git
+```
 
-3. Copy the project folder into:
+2. Move the project folder to:
 
-   * htdocs (XAMPP)
-   * www (WAMP)
+```text
+xampp/htdocs
+```
 
-4. Import the database into MySQL.
+3. Import:
 
-5. Start Apache and MySQL services.
+```text
+dbschema_1220687.sql
+```
+
+into MySQL using phpMyAdmin.
+
+4. Update database credentials inside:
+
+```text
+db.php.inc
+```
+
+5. Start Apache and MySQL.
 
 6. Open:
-   http://localhost/Freelance-Services-Marketplace
 
-## Learning Outcomes
-
-This project strengthened my skills in:
-
-* Full-stack web development
-* Database design
-* PHP backend development
-* Frontend development
-* Software engineering teamwork practices
+```text
+http://localhost/project1
+```
